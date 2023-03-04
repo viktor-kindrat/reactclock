@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Timer {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Timer-headline {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.Timer-timer {
+    font-size: 85px;
+    line-height: 90px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.Timer-btn {
+    font-size: 25px;
+    padding: 15px 50px;
+    border: 1px solid #333333;
+    cursor: pointer;
+    outline: none;
+    background: #e5e5e5;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
